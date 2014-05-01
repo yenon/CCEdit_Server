@@ -165,7 +165,7 @@ public class CCEdit_Server {
                                             i = 0;
                                             ret = "";
                                             while (i < files.length) {
-                                                if (new File(computer + "/" + files[i]).isDirectory()) {
+                                                if (new File(computer + "/" + file + "/" + files[i]).isDirectory()) {
                                                     if (i == 0) {
                                                         ret = "(dir)" + files[i];
                                                     } else {
